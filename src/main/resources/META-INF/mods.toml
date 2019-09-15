@@ -1,0 +1,17 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory (26 is current forge version)
+[[mods]] #mandatory
+modId="bokitamod" #mandatory
+version="1.0" #mandatory
+displayName="Bokita Mod" #mandatory
+credits="Al equipo de futbol argentino Boca por hacer esto posible" #optional
+authors="Jebano" #optional
+description='''
+Un mod que agrega muchas cosas del equipo de football argentino Boca, como equipaciones con poderes, creeper de Boca, y demas cosas que estan muy buenas
+'''
+[[dependencies.bokitamod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
