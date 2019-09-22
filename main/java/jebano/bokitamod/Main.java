@@ -4,7 +4,7 @@ package jebano.bokitamod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import jebano.bokitamod.item.Items;
+import jebano.bokitamod.item.BokitaItems;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,7 +22,7 @@ public class Main {
 	public static final ItemGroup ITEM_GROUP = new ItemGroup(MOD_ID) {
 		@Override
 		public ItemStack createIcon() {
-			return new ItemStack(Items.EMPTY_PEPPER_SPRAY);
+			return new ItemStack(BokitaItems.EMPTY_PEPPER_SPRAY);
 		}
 	};
 
